@@ -18,6 +18,8 @@
               colors: {
                 clifford: '#da373d',
                 'bike-primary': '#E76F51',
+                'rating':'#E77C40',
+                'footer-bg':'#0B0D17',
                 'bg-header': '#E76F5123',
               },
               fontFamily: {
@@ -376,8 +378,29 @@
        </section>
     </main>
     <!-- footer section  -->
-    <footer>
-
-    </footer>
+    <footer class="footer bg-footer-bg text-neutral-content items-center p-4 py-32 px-48 ">
+      <aside class="grid-flow-col items-center ">
+        <div class="space-y-4">
+          <nav class="flex gap-3">
+            <a class="link link-hover">Download Now</a>
+            <a class="link link-hover">License</a>
+          </nav>
+          <nav class="grid grid-flow-col gap-6">
+            <a class="link link-hover">About</a>
+            <a class="link link-hover">Features</a>
+            <a class="link link-hover">Pricing</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">Help</a>
+            <a class="link link-hover">Privacy Policy</a>
+          </nav>
+          <p> &copy; 2020 bike. All rights reserved</p>
+        </div>
+      </aside>
+      <nav class=" grid-cols-1 gap-4 md:place-self-center md:justify-self-end ">
+        <h3>Get The App</h3>
+        <a><img class="w-36"    src="images/others/ios.png" alt=""></a>
+        <a><img class="w-36" src="images/others/android.png" alt=""></a>
+      </nav>
+  </footer>
 </body>
 </html>
